@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+
+ "docker run -v $(pwd):/app -it --entrypoint /app/vendor/bin/phpunit phpunit/phpunit tests"
